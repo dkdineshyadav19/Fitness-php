@@ -1,0 +1,64 @@
+.container {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10vw;
+  width: 80%;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+}
+.name {
+  position: fixed;
+  margin-left: -70%;
+  margin-top: -11%;
+  width:120px;
+  height: 40px;
+  background-color:grey;
+}
+.name p {
+    color: red;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.date {
+    position: fixed;
+  margin-left: -70%;
+  margin-top: 0%;
+  width:120px;
+  height: 40px;
+  background-color:grey;
+}
+
+.date p {
+     color: red;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.subject {
+    position: fixed;
+  margin-left: 0%;
+  margin-top: -11%;
+  width:50%;
+  height: 40px;
+  background-color:grey;
+}
+.subject p {
+      color: red;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.message {
+  position: fixed;
+  margin-left: 0%;
+  margin-top: 0%;
+  width:50%;
+  height: 40px;
+  background-color:grey;
+}
+.message p {
+  color: red;
+  font-size: 20px;
+  border-radius: 5px;
+}

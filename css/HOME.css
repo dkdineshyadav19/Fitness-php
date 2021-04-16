@@ -1,0 +1,195 @@
+.container{
+	width: 100%;
+	height: 100%;
+}
+.column {
+  float: left;
+  width: 50%;
+  height:750px;
+
+}
+#col2 {
+	background-color:rgb(0,0,0,0.9);
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#col1 {
+	background:linear-gradient(-45deg, rgba(0, 0, 0, 1), rgba(0, 0, 0,0.4)),url(../image/rock.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#col1 h1 {
+	font-family:'Monsterrat', sans-serif;
+	font-size: 5em;
+	margin-left: 40px;
+	color:#0abab5;
+	font-weight: 900px;
+	line-height:20px;
+	z-index: 10;
+}
+#name {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2.5em;
+	margin-left:40px;
+	color: white;
+	font-weight: 800px;
+	line-height: 20px;
+	z-index: 10;
+}
+#p1 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.5em;
+	margin-left: 40px;
+	color: white;
+	font-weight: 50px;
+	width: 80%;
+}
+#col2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+.card {
+	background-color:grey;
+	border-radius: 10px;
+	margin: 0 auto;
+	height: 350px;
+	width: 300px;
+	box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+	transition:transform 0.5s;
+}
+.card h1 {
+	text-decoration: none;
+	text-align: center;
+	margin-top: 90%;
+	background-color: #f5f5dc;
+	padding: 5px 5px 5px 5px;
+	border:2px solid black;
+	transition: 0.7s
+
+}
+.card h1 a {
+	text-decoration: none;
+		font-family: 'Monsterrat', sans-serif;
+	font-size:2em;
+	color:#0abab5;
+}
+.card h1:hover{
+	background-color: black;
+	color:white;
+}
+.card:hover {
+	transform: translateY(-10px);
+}
+.card1{
+	background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0,0.1)), url("../image/img4.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.card2{
+	background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../image/img5.jpg") ;
+	background-size: cover;
+	background-position: center;
+}
+.card3{
+	background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("../image/img6.jpg") ;
+	background-size: cover;
+	background-position: center;
+}
+.card4{
+	background: linear-gradient(-45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0,0.1)), url("../image/img7.jpg") ;
+	background-size: cover;
+	background-position: center;
+}
+#but1 {
+	margin-left: 40px;
+	text-decoration: none;
+	font-family: 'Monsterrat', sans-serif;
+	font-size: 3em;
+	background-color: #0abab5;
+	color: black;
+	border:1px solid black;
+	padding: 5px 5px 5px 5px;
+	transition: 0.7s;
+}
+#but1:hover {
+	background-color: black;
+	color: white;
+}
+.btn1 {
+  top: 0;
+  left: 0;
+  transition: all 0.15s linear 0s;
+  position: relative;
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #FFE800;
+  text-transform: uppercase;
+  color: #404040;
+  font-family: arial;
+  letter-spacing: 1px;
+  box-shadow: -6px 6px 0 #404040;
+  text-decoration: none;
+}
+.btn1:hover {
+  top: 3px;
+  left: -3px;
+  box-shadow: -3px 3px 0 #404040;
+}
+.btn1:hover::after {
+  top: 1px;
+  left: -2px;
+  width: 4px;
+  height: 4px;
+}
+.btn1:hover::before {
+  bottom: -2px;
+  right: 1px;
+  width: 4px;
+  height: 4px;
+}
+.btn1:after {
+  transition: all 0.15s linear 0s;
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: -4px;
+  width: 8px;
+  height: 8px;
+  background-color: #404040;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.btn1:before {
+  transition: all 0.15s linear 0s;
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  right: 2px;
+  width: 8px;
+  height: 8px;
+  background-color: #404040;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+.btn1 a:active{
+  top: 6px;
+  left: -6px;
+  box-shadow: none;
+}
+.btn1:before {
+  bottom: 1px;
+  right: 1px;
+}
+.btn1:after {
+  top: 1px;
+  left: 1px;
+}
+
+@media (max-width: 991px){
+
+}
